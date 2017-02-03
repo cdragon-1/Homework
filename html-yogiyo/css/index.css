@@ -1,0 +1,252 @@
+html, body {
+  width: auto !important;
+  min-width: 320px;
+  letter-spacing: 0;
+}
+body {
+  font-size: 14px;
+  line-height: 1.4285;
+  color: #333;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#header_top {
+  height: 78px;
+  background-color: #DC1400;
+}
+
+#header_bottom {
+  width: 1020px;
+  height: 78px;
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid #dc1400;
+  text-align: center;
+}
+
+#icon-yogiyo {
+  display: block;
+  background-image: url(../images/logo-yogiyo.png);
+  background-size: 90px;
+  width: 90px;
+  height: 38px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: auto 0;
+  float: left;
+}
+
+#icon-login {
+  display: block;
+  max-height: 35px;
+  padding: 0 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 2px;
+  background: #dc1400;
+  border: 1px solid #ea7266;
+  margin: 5px 0;
+  float: right;
+}
+
+#search #search_window {
+  padding: 125px 100px 70px 100px;
+  background-image: url(../images/bg-top.png);
+  background-color: #3b2114;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap > .content-box {
+  width: 1020px;
+  height: 701px;
+  margin: 5px auto;
+  box-sizing: border-box;
+}
+
+.each-box {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 23%;
+  height: 220px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 8px;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+}
+
+.wrap > .content-box > #menu-1 {
+  background-image: url(../images/category-01.png);
+}
+
+.wrap > .content-box > #menu-2 {
+  background-image: url(../images/category-02.png);
+}
+
+.wrap > .content-box > #menu-3 {
+  background-image: url(../images/category-03.png);
+}
+
+.wrap > .content-box > #menu-4 {
+  background-image: url(../images/category-04.png);
+}
+
+.wrap > .content-box > #menu-5 {
+  background-image: url(../images/category-05.png);
+}
+
+.wrap > .content-box > #menu-6 {
+  background-image: url(../images/category-06.png);
+}
+
+.wrap > .content-box > #menu-7 {
+  background-image: url(../images/category-07.png);
+}
+
+.wrap > .content-box > #menu-8 {
+  background-image: url(../images/category-08.png);
+}
+
+.wrap > .content-box > #menu-9 {
+  background-image: url(../images/category-09.png);
+}
+
+.wrap > .content-box > #menu-10 {
+  background-image: url(../images/category-10.png);
+}
+
+.wrap > .content-box > #menu-11 {
+  background-image: url(../images/1_mobileweb_429.jpg);
+  float: left;
+  background-size: cover;
+  width: 100%;
+  max-width: 233px;
+}
+
+.title-menu strong {
+  color: #333;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.title-menu span {
+  color: #999;
+  top: 5%;
+  left: 5%;
+  font-size: 120%;
+  font-weight: bold;
+  font-weight: normal;
+}
+
+.footer {
+  background: #fbfbfb;
+  padding-bottom: 65px;
+  font-size: 12px;
+  color: #999;
+}
+
+.each-box img {
+  float: right;
+  width: 100%;
+  display: block;
+  position: fixed;
+  display: block;
+  height: auto;
+  vertical-align: middle;
+  margin: 0 0 10px 10px;
+  border: 0;
+}
+
+.footer-menu {
+  max-width: 1020px;
+  height: 51.74px;
+  background: #fbfbfb;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  position: relative;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+#footer-menu-total li {
+  display: inline-block;
+  float: left;
+  margin-right: 60px;
+  margin-left: 0px;
+  padding: 0px;
+  color: #818181;
+}
+
+#footer-menu-total li:first-child {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+#facebook img {
+  background-image: : url("../images/img-footer1.png") no-repeat 0 -70px;
+}
+
+.company-wrap {
+  position: relative;
+  max-width: 1020px;
+  margin: 30px auto 0 auto;
+  padding-left: 20px;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+.footer a {
+color: #818181;
+}
+
+.company-wrap-top li {
+width: 100%;
+display: block;
+float: left;
+letter-spacing: 0;
+font-family: '맑은고딕', malgungothic,'돋움';
+color: #4d4d4d;
+line-height: 1.6;
+padding-left: 118px;
+box-sizing: border-box;
+}
+
+.company-logo {
+  background: url(../images/img-footer1.png) no-repeat;
+  width: 70px;
+  height: 29px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.company-info {
+  color: #000;
+  font-size: 14px;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.service-info {
+max-width: 1020px;
+padding-left: 138px;
+margin: 30px auto;
+overflow: auto;
+}
+
+.logo-bottom .img {
+background: url(../images/img-footer1.png) no repeat 0 -30px;
+}
