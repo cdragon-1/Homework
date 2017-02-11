@@ -1,3 +1,3 @@
 # Homework
-doing homework from Fastcampus-web programming school
+Homework from Fastcampus-web programming school
 # Homework
